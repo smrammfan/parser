@@ -1,0 +1,36 @@
+<signal-proogram>
+|   <program>
+|   |   401   PROGRAM
+|   |   <procedure-identifier>
+|   |   |   <identifier>
+|   |   |   |   1001  TEST1
+|   |   |   </identifier>
+|   |   </procedure-identifier>
+|   |   59    ;
+|   |   <block>
+|   |   |   <declarations>
+|   |   |   |   <label-declarations>
+|   |   |   |   |   404   LABEL
+|   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   501   231
+|   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   <labels-list>
+|   |   |   |   |   |   44    ,
+|   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   502   123
+|   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   <labels-list>
+|   |   |   |   |   |   |   44    ,
+|   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   503   1
+|   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   <labels-list>
+|   |   |   |   |   |   |   |   44    ,
+|   |   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   |   504   324
+|   |   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   |   <labels-list>
+
+
+Parser: Error (line 3, column 1): '';' or ','' expected but 'BEGIN' was found
+

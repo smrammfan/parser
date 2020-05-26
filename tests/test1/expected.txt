@@ -1,0 +1,114 @@
+<signal-proogram>
+|   <program>
+|   |   401   PROGRAM
+|   |   <procedure-identifier>
+|   |   |   <identifier>
+|   |   |   |   1001  TEST1
+|   |   |   </identifier>
+|   |   </procedure-identifier>
+|   |   59    ;
+|   |   <block>
+|   |   |   <declarations>
+|   |   |   |   <label-declarations>
+|   |   |   |   |   404   LABEL
+|   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   501   231
+|   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   <labels-list>
+|   |   |   |   |   |   44    ,
+|   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   502   123
+|   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   <labels-list>
+|   |   |   |   |   |   |   44    ,
+|   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   503   1
+|   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   <labels-list>
+|   |   |   |   |   |   |   |   44    ,
+|   |   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   |   504   324
+|   |   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   |   <labels-list>
+|   |   |   |   |   |   |   |   |   <empty>
+|   |   |   |   |   |   |   |   </labels-list>
+|   |   |   |   |   |   |   </labels-list>
+|   |   |   |   |   |   </labels-list>
+|   |   |   |   |   </labels-list>
+|   |   |   |   |   59    ;
+|   |   |   |   </label-declarations>
+|   |   |   </declarations>
+|   |   |   402   BEGIN
+|   |   |   <statement-list>
+|   |   |   |   <statement>
+|   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   502   123
+|   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   58    :
+|   |   |   |   |   <statement>
+|   |   |   |   |   |   405   GOTO
+|   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   501   231
+|   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   </statement>
+|   |   |   |   </statement>
+|   |   |   |   59    ;
+|   |   |   |   <statement-list>
+|   |   |   |   |   <statement>
+|   |   |   |   |   |   407   IN
+|   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   502   123
+|   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   </statement>
+|   |   |   |   |   59    ;
+|   |   |   |   |   <statement-list>
+|   |   |   |   |   |   <statement>
+|   |   |   |   |   |   |   408   OUT
+|   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   504   324
+|   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   </statement>
+|   |   |   |   |   |   59    ;
+|   |   |   |   |   |   <statement-list>
+|   |   |   |   |   |   |   <statement>
+|   |   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   |   503   1
+|   |   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   |   58    :
+|   |   |   |   |   |   |   |   <statement>
+|   |   |   |   |   |   |   |   |   405   GOTO
+|   |   |   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   |   |   503   1
+|   |   |   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   |   </statement>
+|   |   |   |   |   |   |   </statement>
+|   |   |   |   |   |   |   59    ;
+|   |   |   |   |   |   |   <statement-list>
+|   |   |   |   |   |   |   |   <statement>
+|   |   |   |   |   |   |   |   |   406   LINK
+|   |   |   |   |   |   |   |   |   <variable-identifier>
+|   |   |   |   |   |   |   |   |   |   <identifier>
+|   |   |   |   |   |   |   |   |   |   |   1002  VAR1
+|   |   |   |   |   |   |   |   |   |   </identifier>
+|   |   |   |   |   |   |   |   |   </variable-identifier>
+|   |   |   |   |   |   |   |   |   44    ,
+|   |   |   |   |   |   |   |   |   <unsigned-integer>
+|   |   |   |   |   |   |   |   |   |   505   3264
+|   |   |   |   |   |   |   |   |   </unsigned-integer>
+|   |   |   |   |   |   |   |   </statement>
+|   |   |   |   |   |   |   |   59    ;
+|   |   |   |   |   |   |   |   <statement-list>
+|   |   |   |   |   |   |   |   |   <empty>
+|   |   |   |   |   |   |   |   </statement-list>
+|   |   |   |   |   |   |   </statement-list>
+|   |   |   |   |   |   </statement-list>
+|   |   |   |   |   </statement-list>
+|   |   |   |   </statement-list>
+|   |   |   </statement-list>
+|   |   |   403   END
+|   |   </block>
+|   |   46    .
+|   </program>
+</signal-proogram>
+
+

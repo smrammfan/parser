@@ -1,0 +1,13 @@
+      code      line    column                name
+
+       401         1         1             PROGRAM
+      1001         1         9               TEST1
+        59         1        14                   ;
+       404         2         1               LABEL
+       501         2         7                 324
+        59         2        10                   ;
+       402         3         1               BEGIN
+       403         4         1                 END
+        46         4         4                   .
+
+

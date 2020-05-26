@@ -1,0 +1,26 @@
+<signal-proogram>
+|   <program>
+|   |   401   PROGRAM
+|   |   <procedure-identifier>
+|   |   |   <identifier>
+|   |   |   |   1001  TEST1
+|   |   |   </identifier>
+|   |   </procedure-identifier>
+|   |   59    ;
+|   |   <block>
+|   |   |   <declarations>
+|   |   |   |   <label-declarations>
+|   |   |   |   |   <empty>
+|   |   |   |   </label-declarations>
+|   |   |   </declarations>
+|   |   |   402   BEGIN
+|   |   |   <statement-list>
+|   |   |   |   <empty>
+|   |   |   </statement-list>
+|   |   |   403   END
+|   |   </block>
+|   |   46    .
+|   </program>
+</signal-proogram>
+
+
